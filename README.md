@@ -17,9 +17,9 @@ This project contains Python scripts that automate the process of cracking passw
 
 ## Scripts
 
-- **hashcrack.py** - Main script with full hash mode enumeration
+- **hashcrack.py** - Script configured for Password 7 challenge (uses specific hash modes: 170, 6000, 4500, 4700, 18500, 100, 27200, 300)
+- **hashcrack2.py** - Script configured for Password 8 challenge (uses different hash modes: 900, 70, 2600, 3500, 4400, 20900, 4300, 0, 1000, 9900, 8600)
 - **newhashcrack.py** - Streamlined version with auto-detection of paths
-- **hashcrack2.py** - Alternative variant
 
 ## Requirements
 
@@ -41,16 +41,30 @@ LOG_FILE = "hashcrack.log"            # Log file for progress tracking
 
 ### Hash Modes
 
-The scripts test specific hash modes by default:
+Each script is configured with specific hash modes for different password challenges:
 
+**hashcrack.py (Password 7):**
 - 170: SHA-1
 - 6000: RIPEMD-160
-- 300: MySQL4.1/MySQL5
 - 4500: sha1(sha1($pass))
 - 4700: SHA-1(Base64)
 - 18500: sha1(md5($pass))
 - 100: SHA-1
 - 27200: Ruby on Rails Restful Auth
+- 300: MySQL4.1/MySQL5
+
+**hashcrack2.py (Password 8):**
+- 900: MD4
+- 70: md5(utf16le($pass))
+- 2600: md5(md5($pass))
+- 3500: md5(md5(md5($pass)))
+- 4400: md5(sha1($pass))
+- 20900: md5(sha1($pass).sha1($pass))
+- 4300: md5(strtoupper(md5($pass)))
+- 0: MD5
+- 1000: NTLM
+- 9900: Radmin2
+- 8600: Lotus Notes/Domino 5
 
 ## Usage
 
