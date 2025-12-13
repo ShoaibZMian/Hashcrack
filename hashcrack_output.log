@@ -1,0 +1,470 @@
+[2025-10-03 02:33:41] ============================================================
+[2025-10-03 02:33:41] Starting Hashcat Brute-Force Attack
+[2025-10-03 02:33:41] ============================================================
+[2025-10-03 02:33:41] Hash file: /home/shweb/Downloads/hash7.txt
+[2025-10-03 02:33:41] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-10-03 02:33:41] Output file: cracked.txt
+[2025-10-03 02:33:41] 
+[2025-10-03 02:33:41] Retrieving available hash modes...
+[2025-10-03 02:33:41] Found 500 hash modes
+[2025-10-03 02:33:41] Searching for rule files...
+[2025-10-03 02:33:41] Found 94 rule files
+[2025-10-03 02:33:41] 
+[2025-10-03 02:33:41] Total combinations to try: 47500
+[2025-10-03 02:33:41] Starting attacks...
+[2025-10-03 02:33:41] 
+[2025-10-03 02:33:41] [1] Trying mode 100 (no rules)
+[2025-10-03 02:33:46] [2] Trying mode 100 with rule prepend_hu.rule
+[2025-10-03 02:33:47] [3] Trying mode 100 with rule append_lds_passthrough.rule
+[2025-10-03 02:33:50] [4] Trying mode 100 with rule prepend_lu_passthrough.rule
+[2025-10-03 02:33:53] [5] Trying mode 100 with rule toggles3.rule
+[2025-10-03 02:33:56] [6] Trying mode 100 with rule append_s_passthrough.rule
+[2025-10-03 02:33:59] [7] Trying mode 100 with rule prepend_lu.rule
+[2025-10-03 02:34:02] [8] Trying mode 100 with rule prepend_du.rule
+[2025-10-03 02:34:04] [9] Trying mode 100 with rule append_ldus_passthrough.rule
+[2025-10-03 02:34:07] [10] Trying mode 100 with rule prepend_lus.rule
+[2025-10-03 02:34:09] [11] Trying mode 100 with rule prepend_ds.rule
+[2025-10-03 02:34:12] [12] Trying mode 100 with rule append_du.rule
+[2025-10-03 02:34:15] [13] Trying mode 100 with rule prepend_u_passthrough.rule
+[2025-10-03 02:34:16] [14] Trying mode 100 with rule append_dus_passthrough.rule
+[2025-10-03 02:34:19] [15] Trying mode 100 with rule prepend_d_passthrough.rule
+[2025-10-03 02:34:20] [16] Trying mode 100 with rule prepend_l_passthrough.rule
+[2025-10-03 02:34:23] [17] Trying mode 100 with rule append_d_passthrough.rule
+[2025-10-03 02:34:25] [18] Trying mode 100 with rule unix-ninja-leetspeak.rule
+[2025-10-03 02:34:53] [19] Trying mode 100 with rule Incisive-leetspeak.rule
+[2025-10-03 02:36:47] [20] Trying mode 100 with rule prepend_d.rule
+[2025-10-03 02:36:49] [21] Trying mode 100 with rule append_us.rule
+[2025-10-03 02:36:51] [22] Trying mode 100 with rule prepend_ldu_passthrough.rule
+[2025-10-03 02:36:54] [23] Trying mode 100 with rule T0XlC_insert_HTML_entities_0_Z.rule
+[2025-10-03 02:37:31] [24] Trying mode 100 with rule append_l.rule
+[2025-10-03 02:37:33] [25] Trying mode 100 with rule append_hu.rule
+[2025-10-03 02:37:34] [26] Trying mode 100 with rule prepend_ds_passthrough.rule
+[2025-10-03 02:37:37] [27] Trying mode 100 with rule prepend_lds_passthrough.rule
+[2025-10-03 02:37:39] [28] Trying mode 100 with rule append_ds_passthrough.rule
+[2025-10-03 02:37:42] [29] Trying mode 100 with rule append_u_passthrough.rule
+[2025-10-03 02:37:44] [30] Trying mode 100 with rule prepend_us_passthrough.rule
+[2025-10-03 02:37:46] [31] Trying mode 100 with rule append_lus.rule
+[2025-10-03 02:37:49] [32] Trying mode 100 with rule d3ad0ne.rule
+[2025-10-03 02:39:57] [33] Trying mode 100 with rule prepend_dus_passthrough.rule
+[2025-10-03 02:40:00] [34] Trying mode 100 with rule InsidePro-HashManager.rule
+[2025-10-03 02:40:27] [35] Trying mode 100 with rule prepend_u.rule
+[2025-10-03 02:40:28] [36] Trying mode 100 with rule append_u.rule
+[2025-10-03 02:40:31] [37] Trying mode 100 with rule prepend_hl_passthrough.rule
+[2025-10-03 02:40:32] [38] Trying mode 100 with rule append_d.rule
+[2025-10-03 02:40:34] [39] Trying mode 100 with rule prepend_ld_passthrough.rule
+[2025-10-03 02:40:37] [40] Trying mode 100 with rule append_hl_passthrough.rule
+[2025-10-03 02:40:38] [41] Trying mode 100 with rule prepend_lds.rule
+[2025-10-03 02:40:41] [42] Trying mode 100 with rule append_ls_passthrough.rule
+[2025-10-03 02:40:43] [43] Trying mode 100 with rule prepend_s.rule
+[2025-10-03 02:40:46] [44] Trying mode 100 with rule append_s.rule
+[2025-10-03 02:40:48] [45] Trying mode 100 with rule T0XlC_3_rule.rule
+[2025-10-03 02:40:50] [46] Trying mode 100 with rule prepend_hl.rule
+[2025-10-03 02:40:52] [47] Trying mode 100 with rule T0XlCv2.rule
+[2025-10-03 02:42:17] [48] Trying mode 100 with rule append_ld_passthrough.rule
+[2025-10-03 02:42:20] [49] Trying mode 100 with rule prepend_lus_passthrough.rule
+[2025-10-03 02:42:23] [50] Trying mode 100 with rule append_ds.rule
+[2025-10-03 02:42:25] [51] Trying mode 100 with rule append_ldu.rule
+[2025-10-03 02:42:28] [52] Trying mode 100 with rule leetspeak.rule
+[2025-10-03 02:42:29] [53] Trying mode 100 with rule prepend_ls.rule
+[2025-10-03 02:42:32] [54] Trying mode 100 with rule dive.rule
+[2025-10-03 02:47:32]   Timeout for mode 100 with rule dive.rule
+[2025-10-03 02:47:32] [55] Trying mode 100 with rule prepend_s_passthrough.rule
+[2025-10-03 02:47:35] [56] Trying mode 100 with rule toggles4.rule
+[2025-10-03 02:47:42] [57] Trying mode 100 with rule prepend_ldus.rule
+[2025-10-03 02:47:45] [58] Trying mode 100 with rule append_hu_passthrough.rule
+[2025-10-03 02:47:47] [59] Trying mode 100 with rule append_l_passthrough.rule
+[2025-10-03 02:47:49] [60] Trying mode 100 with rule append_lds.rule
+[2025-10-03 02:47:52] [61] Trying mode 100 with rule append_lus_passthrough.rule
+[2025-10-03 02:47:55] [62] Trying mode 100 with rule append_lu_passthrough.rule
+[2025-10-03 02:47:57] [63] Trying mode 100 with rule prepend_l.rule
+[2025-10-03 02:47:59] [64] Trying mode 100 with rule append_us_passthrough.rule
+[2025-10-03 02:48:01] [65] Trying mode 100 with rule prepend_ls_passthrough.rule
+[2025-10-03 02:48:04] [66] Trying mode 100 with rule toggles2.rule
+[2025-10-03 02:48:07] [67] Trying mode 100 with rule generated2.rule
+[2025-10-03 02:52:31] [68] Trying mode 100 with rule append_ldus.rule
+[2025-10-03 02:52:34] [69] Trying mode 100 with rule append_dus.rule
+[2025-10-03 02:52:37] [70] Trying mode 100 with rule combinator.rule
+[2025-10-03 02:52:39] [71] Trying mode 100 with rule prepend_dus.rule
+[2025-10-03 02:52:42] [72] Trying mode 100 with rule toggles5.rule
+[2025-10-03 02:52:59] [73] Trying mode 100 with rule toggles1.rule
+[2025-10-03 02:53:00] [74] Trying mode 100 with rule T0XlC-insert_top_100_passwords_1_G.rule
+[2025-10-03 02:53:16] [75] Trying mode 100 with rule append_ldu_passthrough.rule
+[2025-10-03 02:53:19] [76] Trying mode 100 with rule oscommerce.rule
+[2025-10-03 02:53:22] [77] Trying mode 100 with rule specific.rule
+[2025-10-03 02:53:26] [78] Trying mode 100 with rule T0XlC.rule
+[2025-10-03 02:53:47] [79] Trying mode 100 with rule append_du_passthrough.rule
+[2025-10-03 02:53:49] [80] Trying mode 100 with rule append_ls.rule
+[2025-10-03 02:53:52] [81] Trying mode 100 with rule rockyou-30000.rule
+[2025-10-03 02:55:39] [82] Trying mode 100 with rule T0XlC-insert_space_and_special_0_F.rule
+[2025-10-03 02:55:43] [83] Trying mode 100 with rule T0XlC-insert_00-99_1950-2050_toprules_0_F.rule
+[2025-10-03 02:56:01] [84] Trying mode 100 with rule prepend_ld.rule
+[2025-10-03 02:56:04] [85] Trying mode 100 with rule best64.rule
+[2025-10-03 02:56:06] [86] Trying mode 100 with rule prepend_hu_passthrough.rule
+[2025-10-03 02:56:08] [87] Trying mode 100 with rule append_ld.rule
+[2025-10-03 02:56:10] [88] Trying mode 100 with rule append_lu.rule
+[2025-10-03 02:56:13] [89] Trying mode 100 with rule prepend_ldu.rule
+[2025-10-03 02:56:16] [90] Trying mode 100 with rule InsidePro-PasswordsPro.rule
+[2025-10-03 02:56:30] [91] Trying mode 100 with rule prepend_us.rule
+[2025-10-03 02:56:33] [92] Trying mode 100 with rule generated.rule
+[2025-10-03 02:57:25] [93] Trying mode 100 with rule prepend_ldus_passthrough.rule
+[2025-10-03 02:57:27] [94] Trying mode 100 with rule append_hl.rule
+[2025-10-03 02:57:29] [95] Trying mode 100 with rule prepend_du_passthrough.rule
+[2025-10-03 02:57:32] 
+[2025-10-03 02:57:32] ============================================================
+[2025-10-03 02:57:32] Attack completed
+[2025-10-03 02:57:32] Total attempts: 95
+[2025-10-03 02:57:32] Successful runs: 0
+[2025-10-03 02:57:32] Hash was NOT cracked with available modes and rules
+[2025-10-03 02:57:32] ============================================================
+[2025-10-03 03:32:53] ============================================================
+[2025-10-03 03:32:53] Starting Hashcat Brute-Force Attack
+[2025-10-03 03:32:53] ============================================================
+[2025-10-03 03:32:53] Hash file: /home/shweb/Downloads/hash7.txt
+[2025-10-03 03:32:53] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-10-03 03:32:53] Output file: cracked.txt
+[2025-10-03 03:32:53] 
+[2025-10-03 03:32:53] Retrieving available hash modes...
+[2025-10-03 03:32:53] Found 500 hash modes
+[2025-10-03 03:32:53] Searching for rule files...
+[2025-10-03 03:32:53] Found 94 rule files
+[2025-10-03 03:32:53] 
+[2025-10-03 03:32:53] Total combinations to try: 47500
+[2025-10-03 03:32:53] Starting attacks...
+[2025-10-03 03:32:53] 
+[2025-10-03 03:32:53] [1] Trying mode 6000 (no rules)
+[2025-10-03 03:32:58] [2] Trying mode 4500 (no rules)
+[2025-10-03 03:32:59] Skipping mode 190 (not available)
+[2025-10-03 03:32:59] [3] Trying mode 27200 (no rules)
+[2025-10-03 03:33:00] [4] Trying mode 300 (no rules)
+[2025-10-03 03:33:01] [5] Trying mode 24800 (no rules)
+[2025-10-03 03:33:02] [6] Trying mode 2500 (no rules)
+[2025-10-03 03:33:02] [7] Trying mode 2501 (no rules)
+[2025-10-03 03:33:03] [8] Trying mode 6000 with rule toggles3.rule
+[2025-10-03 03:33:06] [9] Trying mode 6000 with rule append_u.rule
+[2025-10-03 03:33:08] [10] Trying mode 6000 with rule combinator.rule
+[2025-10-03 03:33:11] [11] Trying mode 6000 with rule T0XlC_3_rule.rule
+[2025-10-03 03:33:12] [12] Trying mode 6000 with rule Incisive-leetspeak.rule
+[2025-10-03 03:34:37] [13] Trying mode 6000 with rule append_s.rule
+[2025-10-03 03:34:40] [14] Trying mode 6000 with rule prepend_d.rule
+[2025-10-03 03:34:42] [15] Trying mode 6000 with rule prepend_lus.rule
+[2025-10-03 03:34:44] [16] Trying mode 6000 with rule prepend_ldu_passthrough.rule
+[2025-10-03 03:34:47] [17] Trying mode 6000 with rule prepend_l_passthrough.rule
+[2025-10-03 03:34:49] [18] Trying mode 6000 with rule append_d.rule
+[2025-10-03 03:34:51] [19] Trying mode 6000 with rule toggles2.rule
+[2025-10-03 03:34:54] [20] Trying mode 6000 with rule prepend_dus.rule
+[2025-10-03 03:34:56] [21] Trying mode 6000 with rule append_ls.rule
+[2025-10-03 03:34:59] [22] Trying mode 6000 with rule append_lu_passthrough.rule
+[2025-10-03 03:35:02] [23] Trying mode 6000 with rule unix-ninja-leetspeak.rule
+[2025-10-03 03:35:20] [24] Trying mode 6000 with rule append_ldus.rule
+[2025-10-03 03:35:23] [25] Trying mode 6000 with rule T0XlC-insert_00-99_1950-2050_toprules_0_F.rule
+[2025-10-03 03:35:41] [26] Trying mode 6000 with rule generated2.rule
+[2025-10-03 03:40:15] [27] Trying mode 6000 with rule prepend_ldu.rule
+[2025-10-03 03:40:18] [28] Trying mode 6000 with rule dive.rule
+[2025-10-03 03:45:18]   Timeout for mode 6000 with rule dive.rule
+[2025-10-03 03:45:18] [29] Trying mode 6000 with rule prepend_lds.rule
+[2025-10-03 03:45:21] [30] Trying mode 6000 with rule append_lds.rule
+[2025-10-03 03:45:24] [31] Trying mode 6000 with rule prepend_hu.rule
+[2025-10-03 03:45:25] [32] Trying mode 6000 with rule oscommerce.rule
+[2025-10-03 03:45:29] [33] Trying mode 6000 with rule append_hl.rule
+[2025-10-03 03:45:30] [34] Trying mode 6000 with rule append_l_passthrough.rule
+[2025-10-03 03:45:33] [35] Trying mode 6000 with rule append_us.rule
+[2025-10-03 03:45:36] [36] Trying mode 6000 with rule append_dus_passthrough.rule
+[2025-10-03 03:45:38] [37] Trying mode 6000 with rule prepend_hl_passthrough.rule
+[2025-10-03 03:45:41] [38] Trying mode 6000 with rule leetspeak.rule
+[2025-10-03 03:45:43] [39] Trying mode 6000 with rule specific.rule
+[2025-10-03 03:45:45] [40] Trying mode 6000 with rule append_lds_passthrough.rule
+[2025-10-03 03:45:48] [41] Trying mode 6000 with rule prepend_d_passthrough.rule
+[2025-10-03 03:45:49] [42] Trying mode 6000 with rule append_lu.rule
+[2025-10-03 03:45:52] [43] Trying mode 6000 with rule T0XlC_insert_HTML_entities_0_Z.rule
+[2025-10-03 03:46:28] [44] Trying mode 6000 with rule prepend_lds_passthrough.rule
+[2025-10-03 03:46:31] [45] Trying mode 6000 with rule prepend_ds_passthrough.rule
+[2025-10-03 03:46:33] [46] Trying mode 6000 with rule append_s_passthrough.rule
+[2025-10-03 03:46:36] [47] Trying mode 6000 with rule append_dus.rule
+[2025-10-03 03:46:39] [48] Trying mode 6000 with rule prepend_hu_passthrough.rule
+[2025-10-03 03:46:40] [49] Trying mode 6000 with rule append_du.rule
+[2025-10-03 03:46:43] [50] Trying mode 6000 with rule append_ldus_passthrough.rule
+[2025-10-03 03:46:45] [51] Trying mode 6000 with rule prepend_ldus_passthrough.rule
+[2025-10-03 03:46:48] [52] Trying mode 6000 with rule append_hu.rule
+[2025-10-03 03:46:50] [53] Trying mode 6000 with rule append_ls_passthrough.rule
+[2025-10-03 03:46:52] [54] Trying mode 6000 with rule append_lus.rule
+[2025-10-03 03:46:55] [55] Trying mode 6000 with rule prepend_du_passthrough.rule
+[2025-10-03 03:46:57] [56] Trying mode 6000 with rule best64.rule
+[2025-10-03 03:47:00] [57] Trying mode 6000 with rule InsidePro-PasswordsPro.rule
+[2025-10-03 03:47:15] [58] Trying mode 6000 with rule toggles1.rule
+[2025-10-03 03:47:16] [59] Trying mode 6000 with rule append_ld.rule
+[2025-10-03 03:47:19] [60] Trying mode 6000 with rule rockyou-30000.rule
+[2025-10-03 03:49:15] [61] Trying mode 6000 with rule T0XlCv2.rule
+[2025-10-03 03:50:41] [62] Trying mode 6000 with rule prepend_dus_passthrough.rule
+[2025-10-03 03:50:43] [63] Trying mode 6000 with rule append_hu_passthrough.rule
+[2025-10-03 03:50:45] [64] Trying mode 6000 with rule T0XlC-insert_space_and_special_0_F.rule
+[2025-10-03 03:50:49] [65] Trying mode 6000 with rule append_ds_passthrough.rule
+[2025-10-03 03:50:51] [66] Trying mode 6000 with rule append_ldu.rule
+[2025-10-03 03:50:54] [67] Trying mode 6000 with rule prepend_du.rule
+[2025-10-03 03:50:56] [68] Trying mode 6000 with rule prepend_ldus.rule
+[2025-10-03 03:50:59] [69] Trying mode 6000 with rule d3ad0ne.rule
+[2025-10-03 03:53:15] [70] Trying mode 6000 with rule prepend_l.rule
+[2025-10-03 03:53:16] [71] Trying mode 6000 with rule prepend_ds.rule
+[2025-10-03 03:53:19] [72] Trying mode 6000 with rule prepend_ls_passthrough.rule
+[2025-10-03 03:53:21] [73] Trying mode 6000 with rule append_ds.rule
+[2025-10-03 03:53:24] [74] Trying mode 6000 with rule toggles4.rule
+[2025-10-03 03:53:32] [75] Trying mode 6000 with rule append_ld_passthrough.rule
+[2025-10-03 03:53:34] [76] Trying mode 6000 with rule prepend_s_passthrough.rule
+[2025-10-03 03:53:37] [77] Trying mode 6000 with rule append_du_passthrough.rule
+[2025-10-03 03:53:40] [78] Trying mode 6000 with rule append_u_passthrough.rule
+[2025-10-03 03:53:41] [79] Trying mode 6000 with rule prepend_lus_passthrough.rule
+[2025-10-03 03:53:44] [80] Trying mode 6000 with rule prepend_us_passthrough.rule
+[2025-10-03 03:53:46] [81] Trying mode 6000 with rule prepend_ld_passthrough.rule
+[2025-10-03 03:53:49] [82] Trying mode 6000 with rule prepend_u.rule
+[2025-10-03 03:53:51] [83] Trying mode 6000 with rule prepend_hl.rule
+[2025-10-03 03:53:52] [84] Trying mode 6000 with rule prepend_us.rule
+[2025-10-03 03:53:55] [85] Trying mode 6000 with rule prepend_s.rule
+[2025-10-03 03:53:57] [86] Trying mode 6000 with rule prepend_u_passthrough.rule
+[2025-10-03 03:54:00] [87] Trying mode 6000 with rule InsidePro-HashManager.rule
+[2025-10-03 03:54:27] [88] Trying mode 6000 with rule append_d_passthrough.rule
+[2025-10-03 03:54:29] [89] Trying mode 6000 with rule prepend_ls.rule
+[2025-10-03 03:54:31] [90] Trying mode 6000 with rule prepend_lu.rule
+[2025-10-03 03:54:34] [91] Trying mode 6000 with rule T0XlC-insert_top_100_passwords_1_G.rule
+[2025-10-03 03:54:47] [92] Trying mode 6000 with rule toggles5.rule
+[2025-10-03 03:55:04] [93] Trying mode 6000 with rule append_us_passthrough.rule
+[2025-10-03 03:55:07] [94] Trying mode 6000 with rule append_lus_passthrough.rule
+[2025-10-03 03:55:10] [95] Trying mode 6000 with rule prepend_lu_passthrough.rule
+[2025-10-03 03:55:12] [96] Trying mode 6000 with rule T0XlC.rule
+[2025-10-03 03:55:33] [97] Trying mode 6000 with rule append_ldu_passthrough.rule
+[2025-10-03 03:55:36] [98] Trying mode 6000 with rule prepend_ld.rule
+[2025-10-03 03:55:38] [99] Trying mode 6000 with rule append_hl_passthrough.rule
+[2025-10-03 03:55:40] [100] Trying mode 6000 with rule generated.rule
+[2025-10-03 03:56:35] [101] Trying mode 6000 with rule append_l.rule
+[2025-10-03 03:56:37] [102] Trying mode 4500 with rule toggles3.rule
+[2025-10-03 03:56:41] [103] Trying mode 4500 with rule append_u.rule
+[2025-10-03 03:56:42] [104] Trying mode 4500 with rule combinator.rule
+[2025-10-03 03:56:45] [105] Trying mode 4500 with rule T0XlC_3_rule.rule
+[2025-10-03 03:56:47] [106] Trying mode 4500 with rule Incisive-leetspeak.rule
+[2025-10-03 03:58:50] [107] Trying mode 4500 with rule append_s.rule
+[2025-10-03 03:58:53] [108] Trying mode 4500 with rule prepend_d.rule
+[2025-10-03 03:58:55] [109] Trying mode 4500 with rule prepend_lus.rule
+[2025-10-03 03:58:57] [110] Trying mode 4500 with rule prepend_ldu_passthrough.rule
+[2025-10-03 03:59:00] [111] Trying mode 4500 with rule prepend_l_passthrough.rule
+[2025-10-03 03:59:02] [112] Trying mode 4500 with rule append_d.rule
+[2025-10-03 03:59:04] [113] Trying mode 4500 with rule toggles2.rule
+[2025-10-03 03:59:07] [114] Trying mode 4500 with rule prepend_dus.rule
+[2025-10-03 03:59:09] [115] Trying mode 4500 with rule append_ls.rule
+[2025-10-03 03:59:12] [116] Trying mode 4500 with rule append_lu_passthrough.rule
+[2025-10-03 03:59:15] [117] Trying mode 4500 with rule unix-ninja-leetspeak.rule
+[2025-10-03 03:59:39] [118] Trying mode 4500 with rule append_ldus.rule
+[2025-10-03 03:59:42] [119] Trying mode 4500 with rule T0XlC-insert_00-99_1950-2050_toprules_0_F.rule
+[2025-10-03 04:00:02] [120] Trying mode 4500 with rule generated2.rule
+[2025-10-03 04:05:02]   Timeout for mode 4500 with rule generated2.rule
+[2025-10-03 04:05:02] [121] Trying mode 4500 with rule prepend_ldu.rule
+[2025-10-03 04:05:05] [122] Trying mode 4500 with rule dive.rule
+[2025-10-03 04:10:05]   Timeout for mode 4500 with rule dive.rule
+[2025-10-03 04:10:05] [123] Trying mode 4500 with rule prepend_lds.rule
+[2025-10-03 04:10:07] [124] Trying mode 4500 with rule append_lds.rule
+[2025-10-03 04:10:10] [125] Trying mode 4500 with rule prepend_hu.rule
+[2025-10-03 04:10:12] [126] Trying mode 4500 with rule oscommerce.rule
+[2025-10-03 04:10:15] [127] Trying mode 4500 with rule append_hl.rule
+[2025-10-03 04:10:17] [128] Trying mode 4500 with rule append_l_passthrough.rule
+[2025-10-03 04:10:19] [129] Trying mode 4500 with rule append_us.rule
+[2025-10-03 04:10:22] [130] Trying mode 4500 with rule append_dus_passthrough.rule
+[2025-10-03 04:10:25] [131] Trying mode 4500 with rule prepend_hl_passthrough.rule
+[2025-10-03 04:10:26] [132] Trying mode 4500 with rule leetspeak.rule
+[2025-10-03 04:10:28] [133] Trying mode 4500 with rule specific.rule
+[2025-10-03 04:10:31] [134] Trying mode 4500 with rule append_lds_passthrough.rule
+[2025-10-03 04:10:34] [135] Trying mode 4500 with rule prepend_d_passthrough.rule
+[2025-10-03 04:10:36] [136] Trying mode 4500 with rule append_lu.rule
+[2025-10-03 04:10:38] [137] Trying mode 4500 with rule T0XlC_insert_HTML_entities_0_Z.rule
+[2025-10-03 04:11:16] [138] Trying mode 4500 with rule prepend_lds_passthrough.rule
+[2025-10-03 04:11:19] [139] Trying mode 4500 with rule prepend_ds_passthrough.rule
+[2025-10-03 04:11:22] [140] Trying mode 4500 with rule append_s_passthrough.rule
+[2025-10-03 04:11:23] [141] Trying mode 4500 with rule append_dus.rule
+[2025-10-03 04:11:26] [142] Trying mode 4500 with rule prepend_hu_passthrough.rule
+[2025-10-03 04:11:27] [143] Trying mode 4500 with rule append_du.rule
+[2025-10-03 04:11:30] [144] Trying mode 4500 with rule append_ldus_passthrough.rule
+[2025-10-03 04:11:33] [145] Trying mode 4500 with rule prepend_ldus_passthrough.rule
+[2025-10-03 04:11:35] [146] Trying mode 4500 with rule append_hu.rule
+[2025-10-03 04:11:37] [147] Trying mode 4500 with rule append_ls_passthrough.rule
+[2025-10-03 04:11:39] [148] Trying mode 4500 with rule append_lus.rule
+[2025-10-03 04:11:42] [149] Trying mode 4500 with rule prepend_du_passthrough.rule
+[2025-10-03 04:11:45] [150] Trying mode 4500 with rule best64.rule
+[2025-10-03 04:11:47] [151] Trying mode 4500 with rule InsidePro-PasswordsPro.rule
+[2025-10-03 04:12:03] [152] Trying mode 4500 with rule toggles1.rule
+[2025-10-03 04:12:05] [153] Trying mode 4500 with rule append_ld.rule
+[2025-10-03 04:12:07] [154] Trying mode 4500 with rule rockyou-30000.rule
+[2025-10-03 04:14:15] [155] Trying mode 4500 with rule T0XlCv2.rule
+[2025-10-03 04:15:48] [156] Trying mode 4500 with rule prepend_dus_passthrough.rule
+[2025-10-03 04:15:50] [157] Trying mode 4500 with rule append_hu_passthrough.rule
+[2025-10-03 04:15:52] [158] Trying mode 4500 with rule T0XlC-insert_space_and_special_0_F.rule
+[2025-10-03 04:15:55] [159] Trying mode 4500 with rule append_ds_passthrough.rule
+[2025-10-03 04:15:58] [160] Trying mode 4500 with rule append_ldu.rule
+[2025-10-03 04:16:01] [161] Trying mode 4500 with rule prepend_du.rule
+[2025-10-03 04:16:03] [162] Trying mode 4500 with rule prepend_ldus.rule
+[2025-10-03 04:16:06] [163] Trying mode 4500 with rule d3ad0ne.rule
+[2025-10-03 04:18:30] [164] Trying mode 4500 with rule prepend_l.rule
+[2025-10-03 04:18:31] [165] Trying mode 4500 with rule prepend_ds.rule
+[2025-10-03 04:18:34] [166] Trying mode 4500 with rule prepend_ls_passthrough.rule
+[2025-10-03 04:18:37] [167] Trying mode 4500 with rule append_ds.rule
+[2025-10-03 04:18:39] [168] Trying mode 4500 with rule toggles4.rule
+[2025-10-03 04:18:48] [169] Trying mode 4500 with rule append_ld_passthrough.rule
+[2025-10-03 04:18:50] [170] Trying mode 4500 with rule prepend_s_passthrough.rule
+[2025-10-03 04:18:53] [171] Trying mode 4500 with rule append_du_passthrough.rule
+[2025-10-03 04:18:56] [172] Trying mode 4500 with rule append_u_passthrough.rule
+[2025-10-03 04:18:57] [173] Trying mode 4500 with rule prepend_lus_passthrough.rule
+[2025-10-03 04:19:00] [174] Trying mode 4500 with rule prepend_us_passthrough.rule
+[2025-10-03 04:19:02] [175] Trying mode 4500 with rule prepend_ld_passthrough.rule
+[2025-10-03 04:19:05] [176] Trying mode 4500 with rule prepend_u.rule
+[2025-10-03 04:19:08] [177] Trying mode 4500 with rule prepend_hl.rule
+[2025-10-03 04:19:09] [178] Trying mode 4500 with rule prepend_us.rule
+[2025-10-03 04:19:12] [179] Trying mode 4500 with rule prepend_s.rule
+[2025-10-03 04:19:15] [180] Trying mode 4500 with rule prepend_u_passthrough.rule
+[2025-10-03 04:19:17] [181] Trying mode 4500 with rule InsidePro-HashManager.rule
+[2025-10-03 04:19:47] [182] Trying mode 4500 with rule append_d_passthrough.rule
+[2025-10-03 04:19:49] [183] Trying mode 4500 with rule prepend_ls.rule
+[2025-10-03 04:19:51] [184] Trying mode 4500 with rule prepend_lu.rule
+[2025-10-03 04:19:54] [185] Trying mode 4500 with rule T0XlC-insert_top_100_passwords_1_G.rule
+[2025-10-03 04:20:08] [186] Trying mode 4500 with rule toggles5.rule
+[2025-10-03 04:20:26] [187] Trying mode 4500 with rule append_us_passthrough.rule
+[2025-10-03 04:20:29] [188] Trying mode 4500 with rule append_lus_passthrough.rule
+[2025-10-03 04:20:32] [189] Trying mode 4500 with rule prepend_lu_passthrough.rule
+[2025-10-03 04:20:34] [190] Trying mode 4500 with rule T0XlC.rule
+[2025-10-03 04:20:56] [191] Trying mode 4500 with rule append_ldu_passthrough.rule
+[2025-10-03 04:20:59] [192] Trying mode 4500 with rule prepend_ld.rule
+[2025-10-03 04:21:01] [193] Trying mode 4500 with rule append_hl_passthrough.rule
+[2025-10-03 04:21:03] [194] Trying mode 4500 with rule generated.rule
+[2025-10-03 04:22:05] [195] Trying mode 4500 with rule append_l.rule
+[2025-10-03 04:22:06] [196] Trying mode 27200 with rule toggles3.rule
+[2025-10-03 04:22:07] [197] Trying mode 27200 with rule append_u.rule
+[2025-10-03 04:22:07] [198] Trying mode 27200 with rule combinator.rule
+[2025-10-03 04:22:08] [199] Trying mode 27200 with rule T0XlC_3_rule.rule
+[2025-10-03 04:22:08] [200] Trying mode 27200 with rule Incisive-leetspeak.rule
+[2025-10-03 04:22:09] [201] Trying mode 27200 with rule append_s.rule
+[2025-10-03 04:22:09] [202] Trying mode 27200 with rule prepend_d.rule
+[2025-10-03 04:22:09] [203] Trying mode 27200 with rule prepend_lus.rule
+[2025-10-03 04:22:10] [204] Trying mode 27200 with rule prepend_ldu_passthrough.rule
+[2025-10-03 04:22:10] [205] Trying mode 27200 with rule prepend_l_passthrough.rule
+[2025-10-03 04:22:11] [206] Trying mode 27200 with rule append_d.rule
+[2025-10-03 04:22:11] [207] Trying mode 27200 with rule toggles2.rule
+[2025-10-03 04:22:12] [208] Trying mode 27200 with rule prepend_dus.rule
+[2025-10-03 04:22:12] [209] Trying mode 27200 with rule append_ls.rule
+[2025-10-03 04:22:13] [210] Trying mode 27200 with rule append_lu_passthrough.rule
+[2025-10-03 04:22:13] [211] Trying mode 27200 with rule unix-ninja-leetspeak.rule
+[2025-10-03 04:22:14] [212] Trying mode 27200 with rule append_ldus.rule
+[2025-10-03 04:22:14] [213] Trying mode 27200 with rule T0XlC-insert_00-99_1950-2050_toprules_0_F.rule
+[2025-10-03 04:22:15] [214] Trying mode 27200 with rule generated2.rule
+[2025-10-03 04:22:15] [215] Trying mode 27200 with rule prepend_ldu.rule
+[2025-10-03 04:22:16] [216] Trying mode 27200 with rule dive.rule
+[2025-10-03 04:22:16] [217] Trying mode 27200 with rule prepend_lds.rule
+[2025-10-03 04:22:17] [218] Trying mode 27200 with rule append_lds.rule
+[2025-10-03 04:22:17] [219] Trying mode 27200 with rule prepend_hu.rule
+[2025-10-03 04:22:18] [220] Trying mode 27200 with rule oscommerce.rule
+[2025-10-03 04:22:18] [221] Trying mode 27200 with rule append_hl.rule
+[2025-10-03 04:22:19] [222] Trying mode 27200 with rule append_l_passthrough.rule
+[2025-10-03 04:22:19] [223] Trying mode 27200 with rule append_us.rule
+[2025-10-03 04:22:19] [224] Trying mode 27200 with rule append_dus_passthrough.rule
+[2025-10-03 04:22:20] [225] Trying mode 27200 with rule prepend_hl_passthrough.rule
+[2025-10-03 04:22:20] [226] Trying mode 27200 with rule leetspeak.rule
+[2025-10-03 04:22:21] [227] Trying mode 27200 with rule specific.rule
+[2025-10-03 04:22:21] [228] Trying mode 27200 with rule append_lds_passthrough.rule
+[2025-10-03 04:22:22] [229] Trying mode 27200 with rule prepend_d_passthrough.rule
+[2025-10-03 04:22:22] [230] Trying mode 27200 with rule append_lu.rule
+[2025-10-03 04:22:23] [231] Trying mode 27200 with rule T0XlC_insert_HTML_entities_0_Z.rule
+[2025-10-03 04:22:23] [232] Trying mode 27200 with rule prepend_lds_passthrough.rule
+[2025-10-03 04:22:24] [233] Trying mode 27200 with rule prepend_ds_passthrough.rule
+[2025-10-03 04:22:24] [234] Trying mode 27200 with rule append_s_passthrough.rule
+[2025-10-03 04:22:24] [235] Trying mode 27200 with rule append_dus.rule
+[2025-10-03 04:22:25] [236] Trying mode 27200 with rule prepend_hu_passthrough.rule
+[2025-10-03 04:22:25] [237] Trying mode 27200 with rule append_du.rule
+[2025-10-03 04:22:26] [238] Trying mode 27200 with rule append_ldus_passthrough.rule
+[2025-10-03 04:22:26] [239] Trying mode 27200 with rule prepend_ldus_passthrough.rule
+[2025-10-03 04:22:27] [240] Trying mode 27200 with rule append_hu.rule
+[2025-10-03 04:22:27] [241] Trying mode 27200 with rule append_ls_passthrough.rule
+[2025-10-03 04:22:28] [242] Trying mode 27200 with rule append_lus.rule
+[2025-10-03 04:22:28] [243] Trying mode 27200 with rule prepend_du_passthrough.rule
+[2025-10-03 04:22:29] [244] Trying mode 27200 with rule best64.rule
+[2025-10-03 04:22:29] [245] Trying mode 27200 with rule InsidePro-PasswordsPro.rule
+[2025-10-03 04:22:30] [246] Trying mode 27200 with rule toggles1.rule
+[2025-10-03 04:22:30] [247] Trying mode 27200 with rule append_ld.rule
+[2025-10-03 04:22:30] [248] Trying mode 27200 with rule rockyou-30000.rule
+[2025-10-03 04:22:31] [249] Trying mode 27200 with rule T0XlCv2.rule
+[2025-10-03 04:22:31] [250] Trying mode 27200 with rule prepend_dus_passthrough.rule
+[2025-10-03 04:22:32] [251] Trying mode 27200 with rule append_hu_passthrough.rule
+[2025-10-03 04:22:32] [252] Trying mode 27200 with rule T0XlC-insert_space_and_special_0_F.rule
+[2025-10-03 04:22:33] [253] Trying mode 27200 with rule append_ds_passthrough.rule
+[2025-10-03 04:22:33] [254] Trying mode 27200 with rule append_ldu.rule
+[2025-10-03 04:22:34] [255] Trying mode 27200 with rule prepend_du.rule
+[2025-10-03 04:22:34] [256] Trying mode 27200 with rule prepend_ldus.rule
+[2025-10-03 04:22:35] [257] Trying mode 27200 with rule d3ad0ne.rule
+[2025-10-03 04:22:35] [258] Trying mode 27200 with rule prepend_l.rule
+[2025     … +2 lines (ctrl+o to expand)
+
+● Bash(grep -E "^\[2025-10-03 03:" hashcrack.log | tail -10)
+  ⎿  [2025-10-03 03:40:15] [27] Trying mode 6000 with rule prepend_ldu.rule
+     [2025-10-03 03:40:18] [28] Trying mode 6000 with rule dive.rule
+     [2025-10-03 03:45:18]   Timeout for mode 6000 with rule dive.rule
+     … +2 lines (ctrl+o to expand)
+
+● Current Status:
+  - Progress: 30 out of ~658 attempts (still on mode 6000)
+  - Mode: 6000 (RIPEMD-160)
+  - Current rule: append_lds.rule
+  - Status: Running since 03:32 (13 minutes elapsed)
+  - Note: dive.rule timed out (5 min timeout)
+  - Cracked: Not yet
+
+  Still testing mode 6000, ~64 more rules to go before moving to modes 4500, 27200, 300, 24800, 2500, 2501.
+
+> info? 
+
+✻ Crystallizing… (esc to interrupt)
+  ⎿  Tip: Start with small features or bug fixes, tell Claude to propose a plan, and verify its suggested edits
+
+● How is Claude doing this session? (op-10-03 04:22:36] [259] Trying mode 27200 with rule prepend_ds.rule
+[2025-10-03 04:22:36] [260] Trying mode 27200 with rule prepend_ls_passthrough.rule
+[2025-10-03 04:22:37] [261] Trying mode 27200 with rule append_ds.rule
+[2025-10-03 04:22:37] [262] Trying mode 27200 with rule toggles4.rule
+[2025-10-03 04:22:37] [263] Trying mode 27200 with rule append_ld_passthrough.rule
+[2025-10-03 04:22:38] [264] Trying mode 27200 with rule prepend_s_passthrough.rule
+[2025-10-03 04:22:38] [265] Trying mode 27200 with rule append_du_passthrough.rule
+[2025-10-03 04:22:39] [266] Trying mode 27200 with rule append_u_passthrough.rule
+[2025-10-03 04:22:39] [267] Trying mode 27200 with rule prepend_lus_passthrough.rule
+[2025-10-03 04:22:40] [268] Trying mode 27200 with rule prepend_us_passthrough.rule
+[2025-10-03 04:22:40] [269] Trying mode 27200 with rule prepend_ld_passthrough.rule
+[2025-10-03 04:22:41] [270] Trying mode 27200 with rule prepend_u.rule
+[2025-10-03 04:22:41] [271] Trying mode 27200 with rule prepend_hl.rule
+[2025-10-03 04:22:42] [272] Trying mode 27200 with rule prepend_us.rule
+[2025-10-03 04:22:42] [273] Trying mode 27200 with rule prepend_s.rule
+[2025-10-03 04:22:42] [274] Trying mode 27200 with rule prepend_u_passthrough.rule
+[2025-10-03 04:22:43] [275] Trying mode 27200 with rule InsidePro-HashManager.rule
+[2025-10-03 04:22:43] [276] Trying mode 27200 with rule append_d_passthrough.rule
+[2025-10-03 04:22:44] [277] Trying mode 27200 with rule prepend_ls.rule
+[2025-10-03 04:22:44] [278] Trying mode 27200 with rule prepend_lu.rule
+[2025-10-03 04:22:45] [279] Trying mode 27200 with rule T0XlC-insert_top_100_passwords_1_G.rule
+[2025-10-03 04:22:45] [280] Trying mode 27200 with rule toggles5.rule
+[2025-10-03 04:22:46] [281] Trying mode 27200 with rule append_us_passthrough.rule
+[2025-10-03 04:22:46] [282] Trying mode 27200 with rule append_lus_passthrough.rule
+[2025-10-03 04:22:47] [283] Trying mode 27200 with rule prepend_lu_passthrough.rule
+[2025-10-03 04:22:47] [284] Trying mode 27200 with rule T0XlC.rule
+[2025-10-03 04:22:48] [285] Trying mode 27200 with rule append_ldu_passthrough.rule
+[2025-10-03 04:22:48] [286] Trying mode 27200 with rule prepend_ld.rule
+[2025-10-03 04:22:48] [287] Trying mode 27200 with rule append_hl_passthrough.rule
+[2025-10-03 04:22:49] [288] Trying mode 27200 with rule generated.rule
+[2025-10-03 04:22:49] [289] Trying mode 27200 with rule append_l.rule
+[2025-10-03 04:22:50] [290] Trying mode 300 with rule toggles3.rule
+[2025-10-03 04:22:54] [291] Trying mode 300 with rule append_u.rule
+[2025-10-03 04:22:56] [292] Trying mode 300 with rule combinator.rule
+[2025-10-03 04:22:59] [293] Trying mode 300 with rule T0XlC_3_rule.rule
+[2025-10-03 04:23:00] [294] Trying mode 300 with rule Incisive-leetspeak.rule
+[2025-10-03 04:25:19] [295] Trying mode 300 with rule append_s.rule
+[2025-10-03 04:25:21] [296] Trying mode 300 with rule prepend_d.rule
+[2025-10-03 04:25:23] [297] Trying mode 300 with rule prepend_lus.rule
+[2025-10-03 04:25:25] [298] Trying mode 300 with rule prepend_ldu_passthrough.rule
+[2025-10-03 04:25:28] [299] Trying mode 300 with rule prepend_l_passthrough.rule
+[2025-10-03 04:25:31] [300] Trying mode 300 with rule append_d.rule
+[2025-10-03 04:25:32] [301] Trying mode 300 with rule toggles2.rule
+[2025-10-03 04:25:35] [302] Trying mode 300 with rule prepend_dus.rule
+[2025-10-03 04:25:37] [303] Trying mode 300 with rule append_ls.rule
+[2025-10-03 04:25:40] [304] Trying mode 300 with rule append_lu_passthrough.rule
+[2025-10-03 04:25:43] [305] Trying mode 300 with rule unix-ninja-leetspeak.rule
+[2025-10-03 04:26:07] [306] Trying mode 300 with rule append_ldus.rule
+[2025-10-03 04:26:10] [307] Trying mode 300 with rule T0XlC-insert_00-99_1950-2050_toprules_0_F.rule
+[2025-10-03 04:26:29] [308] Trying mode 300 with rule generated2.rule
+[2025-10-03 04:31:24] [309] Trying mode 300 with rule prepend_ldu.rule
+[2025-10-03 04:31:27] [310] Trying mode 300 with rule dive.rule
