@@ -10,6 +10,7 @@ import sys
 import re
 from pathlib import Path
 from datetime import datetime
+import re
 
 # Configuration
 HASH_FILE = "/home/shweb/hash.txt"
@@ -27,6 +28,56 @@ RULES_PATHS = [
     os.path.expanduser("~/.hashcat/rules"),
     "/opt/hashcat/rules"
 ]
+
+
+def analyze_hash(hash_str):
+    analysis = {}
+
+    analysis["hash"] = hash_str
+    analysis["length"] = len(hash_str)
+
+    if re.fullmatch(r"[0-9a-fA-F]+", hash_str):
+        analysis["encoding"] = "hex"
+        analysis["bits"] = len(hash_str) * 4
+    elif re.fullmatch(r"[A-Za-z0-9+/=]+", hash_str):
+        analysis["encoding"] = "base64"
+        analysis["bits"] = "unknown (base64)"
+    else:
+        analysis["encoding"] = "unknown"
+        analysis["bits"] = "unknown"
+
+    return analysis
+
+# adding pre-phase analysis
+def pre_phase_check(hash_file):
+    log_message("=== Pre-phase Analysis ===")
+
+    with open(hash_file, "r") as f:
+        hashes = [line.strip() for line in f if line.strip()]
+
+    for h in hashes:
+        analysis = analyze_hash(h)
+
+        # detect simple salt formats
+        salt_detected = ":" in h
+
+        # candidate algorithms (heuristic)
+        candidates = []
+        if analysis["encoding"] == "hex":
+            if analysis["length"] == 32:
+                candidates = ["MD5", "NTLM", "Truncated hashes"]
+            elif analysis["length"] == 40:
+                candidates = ["SHA-1", "RIPEMD-160"]
+            elif analysis["length"] == 64:
+                candidates = ["SHA-256"]
+
+        log_message(f"Hash: {analysis['hash']}")
+        log_message(f"  Length: {analysis['length']} chars")
+        log_message(f"  Encoding: {analysis['encoding']}")
+        log_message(f"  Bit length: {analysis['bits']}")
+        log_message(f"  Salt detected: {salt_detected}")
+        log_message(f"  Candidate algorithms: {candidates}")
+        log_message("")
 
 
 def log_message(message):
@@ -151,6 +202,12 @@ def main():
     if not os.path.exists(WORDLIST):
         log_message(f"ERROR: Wordlist not found: {WORDLIST}")
         sys.exit(1)
+
+    # ensure potfile directory exists
+    os.makedirs("potfiles", exist_ok=True)
+    
+    # pre-phase analysis
+    pre_phase_check(HASH_FILE)
 
     # Get hash modes and rules
     hash_modes = get_hash_modes()
