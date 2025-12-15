@@ -12220,3 +12220,116 @@ Script interrupted by user
 [2025-12-15 16:17:26] [9] Trying mode 170 with rule prepend_l.rule
 [2025-12-15 16:17:36] [10] Trying mode 170 with rule prepend_l_passthrough.rule
 [2025-12-15 16:17:47] [11] Trying mode 170 with rule prepend_ldu_passthrough.rule
+[2025-12-15 17:08:28] ============================================================
+[2025-12-15 17:08:28] Starting Hashcat Brute-Force Attack
+[2025-12-15 17:08:28] ============================================================
+[2025-12-15 17:08:28] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 17:08:28] Wordlist: /home/shweb/Downloads/rockyou.txt
+[2025-12-15 17:08:28] Output file: cracked.txt
+[2025-12-15 17:08:28] 
+[2025-12-15 17:08:28] ERROR: Wordlist not found: /home/shweb/Downloads/rockyou.txt
+[2025-12-15 17:09:06] ============================================================
+[2025-12-15 17:09:06] Starting Hashcat Brute-Force Attack
+[2025-12-15 17:09:06] ============================================================
+[2025-12-15 17:09:06] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 17:09:06] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-12-15 17:09:06] Output file: cracked.txt
+[2025-12-15 17:09:06] 
+[2025-12-15 17:09:06] Retrieving available hash modes...
+[2025-12-15 17:09:06] Found 27 hash modes
+[2025-12-15 17:09:06] Searching for rule files...
+[2025-12-15 17:09:06] Found 94 rule files
+[2025-12-15 17:09:06] 
+[2025-12-15 17:09:06] Total combinations to try: 2565
+[2025-12-15 17:09:06] Starting attacks...
+[2025-12-15 17:09:06] 
+[2025-12-15 17:09:06] Skipping mode 32800 (not available)
+[2025-12-15 17:09:06] [1] Trying mode 0 (no rules)
+[2025-12-15 17:09:18] Skipping mode 1000 (not available)
+[2025-12-15 17:09:18] Skipping mode 900 (not available)
+[2025-12-15 17:09:18] Skipping mode 70 (not available)
+[2025-12-15 17:09:18] Skipping mode 2600 (not available)
+[2025-12-15 17:09:18] Skipping mode 3500 (not available)
+[2025-12-15 17:09:18] Skipping mode 4400 (not available)
+[2025-12-15 17:09:18] Skipping mode 20900 (not available)
+[2025-12-15 17:09:18] Skipping mode 4300 (not available)
+[2025-12-15 17:09:18] Skipping mode 9900 (not available)
+[2025-12-15 17:09:18] Skipping mode 8600 (not available)
+[2025-12-15 17:09:18] [2] Trying mode 0 with rule prepend_s_passthrough.rule
+[2025-12-15 17:09:23] [3] Trying mode 0 with rule append_l.rule
+[2025-12-15 17:09:28] [4] Trying mode 0 with rule dive.rule
+[2025-12-15 17:09:33] 
+Script interrupted by user
+[2025-12-15 17:09:50] ============================================================
+[2025-12-15 17:09:50] Starting Hashcat Brute-Force Attack
+[2025-12-15 17:09:50] ============================================================
+[2025-12-15 17:09:50] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 17:09:50] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-12-15 17:09:50] Output file: cracked.txt
+[2025-12-15 17:09:50] 
+[2025-12-15 17:09:50] Retrieving available hash modes...
+[2025-12-15 17:09:50] Found 0 hash modes
+[2025-12-15 17:09:50] Searching for rule files...
+[2025-12-15 17:09:50] Found 94 rule files
+[2025-12-15 17:09:50] ERROR: No hash modes found. Is hashcat installed?
+[2025-12-15 17:10:11] ============================================================
+[2025-12-15 17:10:11] Starting Hashcat Brute-Force Attack
+[2025-12-15 17:10:11] ============================================================
+[2025-12-15 17:10:11] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 17:10:11] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-12-15 17:10:11] Output file: cracked.txt
+[2025-12-15 17:10:11] 
+[2025-12-15 17:10:11] Retrieving available hash modes...
+[2025-12-15 17:10:11] Found 0 hash modes
+[2025-12-15 17:10:11] Searching for rule files...
+[2025-12-15 17:10:11] Found 94 rule files
+[2025-12-15 17:10:11] ERROR: No hash modes found. Is hashcat installed?
+[2025-12-15 17:10:38] ============================================================
+[2025-12-15 17:10:38] Starting Hashcat Brute-Force Attack
+[2025-12-15 17:10:38] ============================================================
+[2025-12-15 17:10:38] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 17:10:38] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-12-15 17:10:38] Output file: cracked.txt
+[2025-12-15 17:10:38] 
+[2025-12-15 17:10:38] Retrieving available hash modes...
+[2025-12-15 17:10:38] Found 0 hash modes
+[2025-12-15 17:10:38] Searching for rule files...
+[2025-12-15 17:10:38] Found 94 rule files
+[2025-12-15 17:10:38] ERROR: No hash modes found. Is hashcat installed?
+[2025-12-15 17:10:54] ============================================================
+[2025-12-15 17:10:54] Starting Hashcat Brute-Force Attack
+[2025-12-15 17:10:54] ============================================================
+[2025-12-15 17:10:54] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 17:10:54] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-12-15 17:10:54] Output file: cracked.txt
+[2025-12-15 17:10:54] 
+[2025-12-15 17:10:54] Retrieving available hash modes...
+[2025-12-15 17:10:54] Found 0 hash modes
+[2025-12-15 17:10:54] Searching for rule files...
+[2025-12-15 17:10:54] Found 94 rule files
+[2025-12-15 17:10:54] ERROR: No hash modes found. Is hashcat installed?
+[2025-12-15 17:11:23] ============================================================
+[2025-12-15 17:11:23] Starting Hashcat Brute-Force Attack
+[2025-12-15 17:11:23] ============================================================
+[2025-12-15 17:11:23] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 17:11:23] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-12-15 17:11:23] Output file: cracked.txt
+[2025-12-15 17:11:23] 
+[2025-12-15 17:11:23] Retrieving available hash modes...
+[2025-12-15 17:11:23] Found 609 hash modes
+[2025-12-15 17:11:23] Searching for rule files...
+[2025-12-15 17:11:23] Found 94 rule files
+[2025-12-15 17:11:23] 
+[2025-12-15 17:11:23] Total combinations to try: 57855
+[2025-12-15 17:11:23] Starting attacks...
+[2025-12-15 17:11:23] 
+[2025-12-15 17:11:23] [1] Trying mode 32800 (no rules)
+[2025-12-15 17:11:32] [2] Trying mode 0 (no rules)
+[2025-12-15 17:11:38] [3] Trying mode 1000 (no rules)
+[2025-12-15 17:11:46] [4] Trying mode 900 (no rules)
+[2025-12-15 17:11:55] [5] Trying mode 70 (no rules)
+[2025-12-15 17:12:03] [6] Trying mode 2600 (no rules)
+[2025-12-15 17:12:12] [7] Trying mode 3500 (no rules)
+[2025-12-15 17:12:21] [8] Trying mode 4400 (no rules)
+[2025-12-15 17:12:30] [9] Trying mode 20900 (no rules)
+[2025-12-15 17:12:40] [10] Trying mode 4300 (no rules)

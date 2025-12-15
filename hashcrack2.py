@@ -15,11 +15,11 @@ from datetime import datetime
 
 # Configuration
 HASH_FILE = "/home/shweb/Downloads/hash8.txt"
-WORDLIST = "/home/shweb/Downloads/rockyou.txt"
+WORDLIST = "/home/shweb/wordlists/rockyou.txt"
 OUTPUT_FILE = "cracked.txt"
 LOG_FILE = "hashcrack.log"
 # Modes to test
-MODES_TO_TEST = [900, 70, 2600, 3500, 4400, 20900, 4300, 0, 1000, 9900, 8600]
+MODES_TO_TEST = [32800, 0, 1000, 900, 70, 2600, 3500, 4400, 20900, 4300, 9900, 8600]
 
 # Hashcat rules directories (common locations)
 RULES_PATHS = [
@@ -44,7 +44,7 @@ def get_hash_modes():
     log_message("Retrieving available hash modes...")
     try:
         result = subprocess.run(
-            ["hashcat", "--help"],
+            ["hashcat", "-hh"],
             capture_output=True,
             text=True,
             timeout=10
