@@ -12148,3 +12148,75 @@ Script interrupted by user
 [2025-10-10 05:09:51] Successful runs: 0
 [2025-10-10 05:09:51] Hash was NOT cracked with available modes and rules
 [2025-10-10 05:09:51] ============================================================
+[2025-12-15 16:15:50] ============================================================
+[2025-12-15 16:15:50] Starting Hashcat Brute-Force Attack
+[2025-12-15 16:15:50] ============================================================
+[2025-12-15 16:15:50] Hash file: /home/shweb/hash.txt
+[2025-12-15 16:15:50] Wordlist: /home/shweb/GENOVEVA/gen5_list.txt
+[2025-12-15 16:15:50] Output file: cracked.txt
+[2025-12-15 16:15:50] 
+[2025-12-15 16:15:50] === Pre-phase Analysis ===
+[2025-12-15 16:15:50] Hash: b3e0a6335be5c5836d1b45ca8352c1c75f81a9cd
+[2025-12-15 16:15:50]   Length: 40 chars
+[2025-12-15 16:15:50]   Encoding: hex
+[2025-12-15 16:15:50]   Bit length: 160
+[2025-12-15 16:15:50]   Salt detected: False
+[2025-12-15 16:15:50]   Candidate algorithms: ['SHA-1', 'RIPEMD-160']
+[2025-12-15 16:15:50] 
+[2025-12-15 16:15:50] Retrieving available hash modes...
+[2025-12-15 16:15:50] Found 27 hash modes
+[2025-12-15 16:15:50] Searching for rule files...
+[2025-12-15 16:15:50] Found 203 rule files
+[2025-12-15 16:15:50] 
+[2025-12-15 16:15:50] Total combinations to try: 5508
+[2025-12-15 16:15:50] Starting attacks...
+[2025-12-15 16:15:50] 
+[2025-12-15 16:15:50] Skipping mode 170 (not available)
+[2025-12-15 16:15:50] Skipping mode 6000 (not available)
+[2025-12-15 16:15:50] Skipping mode 4500 (not available)
+[2025-12-15 16:15:50] Skipping mode 4700 (not available)
+[2025-12-15 16:15:50] Skipping mode 18500 (not available)
+[2025-12-15 16:15:50] Skipping mode 100 (not available)
+[2025-12-15 16:15:50] Skipping mode 27200 (not available)
+[2025-12-15 16:15:50] Skipping mode 300 (not available)
+[2025-12-15 16:15:50] 
+[2025-12-15 16:15:50] ============================================================
+[2025-12-15 16:15:50] Attack completed
+[2025-12-15 16:15:50] Total attempts: 0
+[2025-12-15 16:15:50] Successful runs: 0
+[2025-12-15 16:15:50] Hash was NOT cracked with available modes and rules
+[2025-12-15 16:15:50] ============================================================
+[2025-12-15 16:16:19] ============================================================
+[2025-12-15 16:16:19] Starting Hashcat Brute-Force Attack
+[2025-12-15 16:16:19] ============================================================
+[2025-12-15 16:16:19] Hash file: /home/shweb/hash.txt
+[2025-12-15 16:16:19] Wordlist: /home/shweb/GENOVEVA/gen5_list.txt
+[2025-12-15 16:16:19] Output file: cracked.txt
+[2025-12-15 16:16:19] 
+[2025-12-15 16:16:19] === Pre-phase Analysis ===
+[2025-12-15 16:16:19] Hash: b3e0a6335be5c5836d1b45ca8352c1c75f81a9cd
+[2025-12-15 16:16:19]   Length: 40 chars
+[2025-12-15 16:16:19]   Encoding: hex
+[2025-12-15 16:16:19]   Bit length: 160
+[2025-12-15 16:16:19]   Salt detected: False
+[2025-12-15 16:16:19]   Candidate algorithms: ['SHA-1', 'RIPEMD-160']
+[2025-12-15 16:16:19] 
+[2025-12-15 16:16:19] Retrieving available hash modes...
+[2025-12-15 16:16:19] Found 609 hash modes
+[2025-12-15 16:16:19] Searching for rule files...
+[2025-12-15 16:16:19] Found 203 rule files
+[2025-12-15 16:16:19] 
+[2025-12-15 16:16:19] Total combinations to try: 124236
+[2025-12-15 16:16:19] Starting attacks...
+[2025-12-15 16:16:19] 
+[2025-12-15 16:16:19] [1] Trying mode 170 (no rules)
+[2025-12-15 16:16:29] [2] Trying mode 6000 (no rules)
+[2025-12-15 16:16:38] [3] Trying mode 4500 (no rules)
+[2025-12-15 16:16:48] [4] Trying mode 4700 (no rules)
+[2025-12-15 16:16:58] [5] Trying mode 18500 (no rules)
+[2025-12-15 16:17:06] [6] Trying mode 100 (no rules)
+[2025-12-15 16:17:16] [7] Trying mode 27200 (no rules)
+[2025-12-15 16:17:16] [8] Trying mode 300 (no rules)
+[2025-12-15 16:17:26] [9] Trying mode 170 with rule prepend_l.rule
+[2025-12-15 16:17:36] [10] Trying mode 170 with rule prepend_l_passthrough.rule
+[2025-12-15 16:17:47] [11] Trying mode 170 with rule prepend_ldu_passthrough.rule
