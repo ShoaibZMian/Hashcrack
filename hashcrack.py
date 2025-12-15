@@ -17,7 +17,7 @@ WORDLIST = "/home/shweb/GENOVEVA/gen5_list.txt"
 OUTPUT_FILE = "cracked.txt"
 LOG_FILE = "hashcrack.log"
 # Modes to test
-MODES_TO_TEST = [170, 6000, 4500, 4700, 18500, 100, 27200, 300]
+MODES_TO_TEST = [170, 6000, 4500, 4700, 18500, 100, 300]
 
 # Hashcat rules directories (common locations)
 RULES_PATHS = [
