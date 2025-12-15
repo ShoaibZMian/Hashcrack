@@ -13,7 +13,7 @@ from datetime import datetime
 
 # Configuration
 HASH_FILE = "/home/shweb/hash.txt"
-WORDLIST = "/home/shweb/GENOVEVA/gen5_list.txt"
+WORDLIST = "/home/shweb/base_dtu.txt"
 OUTPUT_FILE = "cracked.txt"
 LOG_FILE = "hashcrack.log"
 # Modes to test
@@ -21,9 +21,7 @@ MODES_TO_TEST = [170, 6000, 4500, 4700, 18500, 100, 300]
 
 # Hashcat rules directories (common locations)
 RULES_PATHS = [
-    "/usr/share/hashcat/rules",
     "/usr/local/share/doc/hashcat/rules",
-    "/home/shweb/john-jumbo/run/rules",
     os.path.expanduser("~/.hashcat/rules"),
     "/opt/hashcat/rules"
 ]

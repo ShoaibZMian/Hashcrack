@@ -12333,3 +12333,311 @@ Script interrupted by user
 [2025-12-15 17:12:21] [8] Trying mode 4400 (no rules)
 [2025-12-15 17:12:30] [9] Trying mode 20900 (no rules)
 [2025-12-15 17:12:40] [10] Trying mode 4300 (no rules)
+[2025-12-15 19:10:08] ============================================================
+[2025-12-15 19:10:08] Starting Hashcat Brute-Force Attack
+[2025-12-15 19:10:08] ============================================================
+[2025-12-15 19:10:08] Hash file: /home/shweb/Downloads/hash8.txt
+[2025-12-15 19:10:08] Wordlist: /home/shweb/wordlists/rockyou.txt
+[2025-12-15 19:10:08] Output file: cracked.txt
+[2025-12-15 19:10:08] 
+[2025-12-15 19:10:08] Retrieving available hash modes...
+[2025-12-15 19:10:08] Found 609 hash modes
+[2025-12-15 19:10:08] Searching for rule files...
+[2025-12-15 19:10:08] Found 94 rule files
+[2025-12-15 19:10:08] 
+[2025-12-15 19:10:08] Total combinations to try: 57855
+[2025-12-15 19:10:08] Starting attacks...
+[2025-12-15 19:10:08] 
+[2025-12-15 19:10:08] [1] Trying mode 32800 (no rules)
+[2025-12-15 19:10:15] [2] Trying mode 0 (no rules)
+[2025-12-15 19:10:17] 
+Script interrupted by user
+[2025-12-15 19:10:21] ============================================================
+[2025-12-15 19:10:21] Starting Hashcat Brute-Force Attack
+[2025-12-15 19:10:21] ============================================================
+[2025-12-15 19:10:21] Hash file: /home/shweb/hash.txt
+[2025-12-15 19:10:21] Wordlist: /home/shweb/GENOVEVA/gen5_list.txt
+[2025-12-15 19:10:21] Output file: cracked.txt
+[2025-12-15 19:10:21] 
+[2025-12-15 19:10:21] Retrieving available hash modes...
+[2025-12-15 19:10:21] Found 609 hash modes
+[2025-12-15 19:10:21] Searching for rule files...
+[2025-12-15 19:10:21] Found 203 rule files
+[2025-12-15 19:10:21] 
+[2025-12-15 19:10:21] Total combinations to try: 124236
+[2025-12-15 19:10:21] Starting attacks...
+[2025-12-15 19:10:21] 
+[2025-12-15 19:10:21] [1] Trying mode 170 (no rules)
+[2025-12-15 19:10:28] [2] Trying mode 6000 (no rules)
+[2025-12-15 19:10:30] 
+Script interrupted by user
+[2025-12-15 19:11:05] ============================================================
+[2025-12-15 19:11:05] Starting Hashcat Brute-Force Attack
+[2025-12-15 19:11:05] ============================================================
+[2025-12-15 19:11:05] Hash file: /home/shweb/hash.txt
+[2025-12-15 19:11:05] Wordlist: /home/shweb/clean_dtu.txt
+[2025-12-15 19:11:05] Output file: cracked.txt
+[2025-12-15 19:11:05] 
+[2025-12-15 19:11:05] ERROR: Wordlist not found: /home/shweb/clean_dtu.txt
+[2025-12-15 19:11:28] ============================================================
+[2025-12-15 19:11:28] Starting Hashcat Brute-Force Attack
+[2025-12-15 19:11:28] ============================================================
+[2025-12-15 19:11:28] Hash file: /home/shweb/hash.txt
+[2025-12-15 19:11:28] Wordlist: /home/shweb/base_dtu.txt
+[2025-12-15 19:11:28] Output file: cracked.txt
+[2025-12-15 19:11:28] 
+[2025-12-15 19:11:28] Retrieving available hash modes...
+[2025-12-15 19:11:28] Found 609 hash modes
+[2025-12-15 19:11:28] Searching for rule files...
+[2025-12-15 19:11:28] Found 203 rule files
+[2025-12-15 19:11:28] 
+[2025-12-15 19:11:28] Total combinations to try: 124236
+[2025-12-15 19:11:28] Starting attacks...
+[2025-12-15 19:11:28] 
+[2025-12-15 19:11:28] [1] Trying mode 170 (no rules)
+[2025-12-15 19:11:35] [2] Trying mode 6000 (no rules)
+[2025-12-15 19:11:40] [3] Trying mode 4500 (no rules)
+[2025-12-15 19:11:45] [4] Trying mode 4700 (no rules)
+[2025-12-15 19:11:49] [5] Trying mode 18500 (no rules)
+[2025-12-15 19:11:52] [6] Trying mode 100 (no rules)
+[2025-12-15 19:11:56] [7] Trying mode 300 (no rules)
+[2025-12-15 19:12:01] [8] Trying mode 170 with rule best64.rule
+[2025-12-15 19:12:05] [9] Trying mode 170 with rule prepend_u.rule
+[2025-12-15 19:12:10] [10] Trying mode 170 with rule dive.rule
+[2025-12-15 19:17:52] [11] Trying mode 170 with rule prepend_us_passthrough.rule
+[2025-12-15 19:17:57] [12] Trying mode 170 with rule append_us_passthrough.rule
+[2025-12-15 19:18:01] [13] Trying mode 170 with rule append_lu_passthrough.rule
+[2025-12-15 19:18:06] [14] Trying mode 170 with rule toggles1.rule
+[2025-12-15 19:18:10] [15] Trying mode 170 with rule prepend_ldu.rule
+[2025-12-15 19:18:15] [16] Trying mode 170 with rule prepend_u.rule
+[2025-12-15 19:18:19] [17] Trying mode 170 with rule prepend_l_passthrough.rule
+[2025-12-15 19:18:23] [18] Trying mode 170 with rule prepend_lds.rule
+[2025-12-15 19:18:29] [19] Trying mode 170 with rule append_ls.rule
+[2025-12-15 19:18:33] [20] Trying mode 170 with rule T0XlC-insert_00-99_1950-2050_toprules_0_F.rule
+[2025-12-15 19:19:00] [21] Trying mode 170 with rule prepend_d_passthrough.rule
+[2025-12-15 19:19:05] [22] Trying mode 170 with rule prepend_dus.rule
+[2025-12-15 19:19:10] [23] Trying mode 170 with rule prepend_l_passthrough.rule
+[2025-12-15 19:19:15] [24] Trying mode 170 with rule append_du.rule
+[2025-12-15 19:19:20] [25] Trying mode 170 with rule best66.rule
+[2025-12-15 19:19:25] [26] Trying mode 170 with rule append_du_passthrough.rule
+[2025-12-15 19:19:30] [27] Trying mode 170 with rule T0XlC_insert_HTML_entities_0_Z.rule
+[2025-12-15 19:20:04] [28] Trying mode 170 with rule prepend_ldus_passthrough.rule
+[2025-12-15 19:20:10] [29] Trying mode 170 with rule OneRuleToRuleThemAll.rule
+[2025-12-15 19:23:14] [30] Trying mode 170 with rule prepend_ldu_passthrough.rule
+[2025-12-15 19:23:18] [31] Trying mode 170 with rule append_ld.rule
+[2025-12-15 19:23:23] [32] Trying mode 170 with rule append_ls_passthrough.rule
+[2025-12-15 19:23:28] [33] Trying mode 170 with rule append_us.rule
+[2025-12-15 19:23:32] [34] Trying mode 170 with rule prepend_lds_passthrough.rule
+[2025-12-15 19:23:38] [35] Trying mode 170 with rule append_u.rule
+[2025-12-15 19:23:42] [36] Trying mode 170 with rule append_lu_passthrough.rule
+[2025-12-15 19:23:47] [37] Trying mode 170 with rule append_lu.rule
+[2025-12-15 19:23:52] [38] Trying mode 170 with rule append_hl_passthrough.rule
+[2025-12-15 19:23:56] [39] Trying mode 170 with rule prepend_lds_passthrough.rule
+[2025-12-15 19:24:02] [40] Trying mode 170 with rule prepend_ld.rule
+[2025-12-15 19:24:06] [41] Trying mode 170 with rule prepend_d.rule
+[2025-12-15 19:24:11] [42] Trying mode 170 with rule combinator.rule
+[2025-12-15 19:24:16] [43] Trying mode 170 with rule toggles1.rule
+[2025-12-15 19:24:20] [44] Trying mode 170 with rule toggles5.rule
+[2025-12-15 19:24:47] [45] Trying mode 170 with rule append_hl_passthrough.rule
+[2025-12-15 19:24:51] [46] Trying mode 170 with rule rockyou-30000.rule
+[2025-12-15 19:26:44] [47] Trying mode 170 with rule append_s.rule
+[2025-12-15 19:26:49] [48] Trying mode 170 with rule prepend_lus_passthrough.rule
+[2025-12-15 19:26:54] [49] Trying mode 170 with rule prepend_hu_passthrough.rule
+[2025-12-15 19:26:59] [50] Trying mode 170 with rule prepend_ls_passthrough.rule
+[2025-12-15 19:27:04] [51] Trying mode 170 with rule prepend_hu_passthrough.rule
+[2025-12-15 19:27:08] [52] Trying mode 170 with rule toggles4.rule
+[2025-12-15 19:27:23] [53] Trying mode 170 with rule oscommerce.rule
+[2025-12-15 19:27:32] [54] Trying mode 170 with rule stacking58.rule
+[2025-12-15 19:27:37] [55] Trying mode 170 with rule prepend_hl_passthrough.rule
+[2025-12-15 19:27:42] [56] Trying mode 170 with rule append_u.rule
+[2025-12-15 19:27:46] [57] Trying mode 170 with rule append_ldus_passthrough.rule
+[2025-12-15 19:27:51] [58] Trying mode 170 with rule append_l_passthrough.rule
+[2025-12-15 19:27:55] [59] Trying mode 170 with rule append_ds.rule
+[2025-12-15 19:28:00] [60] Trying mode 170 with rule append_d.rule
+[2025-12-15 19:28:05] [61] Trying mode 170 with rule append_dus.rule
+[2025-12-15 19:28:10] [62] Trying mode 170 with rule T0XlC_insert_HTML_entities_0_Z.rule
+[2025-12-15 19:28:44] [63] Trying mode 170 with rule append_l_passthrough.rule
+[2025-12-15 19:28:49] [64] Trying mode 170 with rule rockyou-30000.rule
+[2025-12-15 19:30:40] [65] Trying mode 170 with rule prepend_s.rule
+[2025-12-15 19:30:45] [66] Trying mode 170 with rule append_ds_passthrough.rule
+[2025-12-15 19:30:50] [67] Trying mode 170 with rule generated2.rule
+[2025-12-15 19:34:36] [68] Trying mode 170 with rule prepend_du.rule
+[2025-12-15 19:34:41] [69] Trying mode 170 with rule toggles2.rule
+[2025-12-15 19:34:47] [70] Trying mode 170 with rule T0XlCv2.rule
+[2025-12-15 19:36:04] [71] Trying mode 170 with rule append_ldu.rule
+[2025-12-15 19:36:09] [72] Trying mode 170 with rule append_ldus.rule
+[2025-12-15 19:36:15] [73] Trying mode 170 with rule T0XlC-insert_top_100_passwords_1_G.rule
+[2025-12-15 19:36:30] [74] Trying mode 170 with rule append_lds_passthrough.rule
+[2025-12-15 19:36:36] [75] Trying mode 170 with rule InsidePro-PasswordsPro.rule
+[2025-12-15 19:36:53] [76] Trying mode 170 with rule prepend_s_passthrough.rule
+[2025-12-15 19:36:58] [77] Trying mode 170 with rule prepend_dus_passthrough.rule
+[2025-12-15 19:37:04] [78] Trying mode 170 with rule prepend_hu.rule
+[2025-12-15 19:37:08] [79] Trying mode 170 with rule append_lus_passthrough.rule
+[2025-12-15 19:37:14] [80] Trying mode 170 with rule append_u_passthrough.rule
+[2025-12-15 19:37:18] [81] Trying mode 170 with rule Incisive-leetspeak.rule
+[2025-12-15 19:38:51] [82] Trying mode 170 with rule append_hu.rule
+[2025-12-15 19:38:56] [83] Trying mode 170 with rule dive.rule
+[2025-12-15 19:44:38] [84] Trying mode 170 with rule prepend_lus.rule
+[2025-12-15 19:44:43] [85] Trying mode 170 with rule prepend_ld_passthrough.rule
+[2025-12-15 19:44:48] [86] Trying mode 170 with rule specific.rule
+[2025-12-15 19:44:57] [87] Trying mode 170 with rule append_lds_passthrough.rule
+[2025-12-15 19:45:02] [88] Trying mode 170 with rule prepend_ls.rule
+[2025-12-15 19:45:07] [89] Trying mode 170 with rule append_hu_passthrough.rule
+[2025-12-15 19:45:11] [90] Trying mode 170 with rule append_d_passthrough.rule
+[2025-12-15 19:45:16] [91] Trying mode 170 with rule prepend_ldus.rule
+[2025-12-15 19:45:22] [92] Trying mode 170 with rule InsidePro-PasswordsPro.rule
+[2025-12-15 19:45:40] [93] Trying mode 170 with rule generated.rule
+[2025-12-15 19:46:36] [94] Trying mode 170 with rule toggles3.rule
+[2025-12-15 19:46:45] [95] Trying mode 170 with rule generated.rule
+[2025-12-15 19:47:39] [96] Trying mode 170 with rule prepend_ds.rule
+[2025-12-15 19:47:44] [97] Trying mode 170 with rule append_ldus.rule
+[2025-12-15 19:47:49] [98] Trying mode 170 with rule toggles4.rule
+[2025-12-15 19:48:06] [99] Trying mode 170 with rule prepend_u_passthrough.rule
+[2025-12-15 19:48:11] [100] Trying mode 170 with rule specific.rule
+[2025-12-15 19:48:17] [101] Trying mode 170 with rule prepend_dus.rule
+[2025-12-15 19:48:23] [102] Trying mode 170 with rule append_d_passthrough.rule
+[2025-12-15 19:48:27] [103] Trying mode 170 with rule append_ldu.rule
+[2025-12-15 19:48:32] [104] Trying mode 170 with rule append_ls.rule
+[2025-12-15 19:48:37] [105] Trying mode 170 with rule prepend_s_passthrough.rule
+[2025-12-15 19:48:41] [106] Trying mode 170 with rule append_lus.rule
+[2025-12-15 19:48:47] [107] Trying mode 170 with rule prepend_ls_passthrough.rule
+[2025-12-15 19:48:51] [108] Trying mode 170 with rule append_ld_passthrough.rule
+[2025-12-15 19:48:56] [109] Trying mode 170 with rule prepend_ds_passthrough.rule
+[2025-12-15 19:49:00] [110] Trying mode 170 with rule append_us.rule
+[2025-12-15 19:49:05] [111] Trying mode 170 with rule prepend_ld.rule
+[2025-12-15 19:49:10] [112] Trying mode 170 with rule prepend_ldus.rule
+[2025-12-15 19:49:15] [113] Trying mode 170 with rule append_du_passthrough.rule
+[2025-12-15 19:49:20] [114] Trying mode 170 with rule rockyou-30000.rule
+[2025-12-15 19:51:11] [115] Trying mode 170 with rule prepend_lu.rule
+[2025-12-15 19:51:15] [116] Trying mode 170 with rule passphrase-rule1.rule
+[2025-12-15 19:51:20] [117] Trying mode 170 with rule d3ad0ne.rule
+[2025-12-15 19:53:21] [118] Trying mode 170 with rule append_lds.rule
+[2025-12-15 19:53:26] [119] Trying mode 170 with rule prepend_ld_passthrough.rule
+[2025-12-15 19:53:31] [120] Trying mode 170 with rule toggles2.rule
+[2025-12-15 19:53:37] [121] Trying mode 170 with rule T0XlC-insert_space_and_special_0_F.rule
+[2025-12-15 19:53:46] [122] Trying mode 170 with rule leetspeak.rule
+[2025-12-15 19:53:51] [123] Trying mode 170 with rule append_l.rule
+[2025-12-15 19:53:55] [124] Trying mode 170 with rule append_dus_passthrough.rule
+[2025-12-15 19:54:01] [125] Trying mode 170 with rule prepend_lu_passthrough.rule
+[2025-12-15 19:54:06] [126] Trying mode 170 with rule prepend_l.rule
+[2025-12-15 19:54:10] [127] Trying mode 170 with rule prepend_lds.rule
+[2025-12-15 19:54:16] [128] Trying mode 170 with rule append_u_passthrough.rule
+[2025-12-15 19:54:20] [129] Trying mode 170 with rule prepend_lus_passthrough.rule
+[2025-12-15 19:54:26] [130] Trying mode 170 with rule oscommerce.rule
+[2025-12-15 19:54:35] [131] Trying mode 170 with rule append_dus.rule
+[2025-12-15 19:54:40] [132] Trying mode 170 with rule T0XlC.rule
+[2025-12-15 19:55:02] [133] Trying mode 170 with rule T0XlC-insert_top_100_passwords_1_G.rule
+[2025-12-15 19:55:17] [134] Trying mode 170 with rule append_ld.rule
+[2025-12-15 19:55:22] [135] Trying mode 170 with rule passphrase-rule2.rule
+[2025-12-15 19:55:28] [136] Trying mode 170 with rule append_hu_passthrough.rule
+[2025-12-15 19:55:32] [137] Trying mode 170 with rule OneRuleToRuleThemStill.rule
+[2025-12-15 19:58:25] [138] Trying mode 170 with rule append_dus_passthrough.rule
+[2025-12-15 19:58:31] [139] Trying mode 170 with rule append_lus_passthrough.rule
+[2025-12-15 19:58:36] [140] Trying mode 170 with rule T0XlC-insert_top_100_passwords_1_G.rule
+[2025-12-15 19:58:51] [141] Trying mode 170 with rule prepend_du.rule
+[2025-12-15 19:58:56] [142] Trying mode 170 with rule toggles3.rule
+[2025-12-15 19:59:06] [143] Trying mode 170 with rule InsidePro-HashManager.rule
+[2025-12-15 19:59:36] [144] Trying mode 170 with rule append_ldus_passthrough.rule
+[2025-12-15 19:59:41] [145] Trying mode 170 with rule InsidePro-PasswordsPro.rule
+[2025-12-15 20:00:00] [146] Trying mode 170 with rule prepend_lu.rule
+[2025-12-15 20:00:05] [147] Trying mode 170 with rule InsidePro-HashManager.rule
+[2025-12-15 20:00:33] [148] Trying mode 170 with rule append_s_passthrough.rule
+[2025-12-15 20:00:38] [149] Trying mode 170 with rule append_s_passthrough.rule
+[2025-12-15 20:00:43] [150] Trying mode 170 with rule prepend_lu_passthrough.rule
+[2025-12-15 20:00:47] [151] Trying mode 170 with rule append_lus.rule
+[2025-12-15 20:00:53] [152] Trying mode 170 with rule T0XlCv2.rule
+[2025-12-15 20:02:10] [153] Trying mode 170 with rule prepend_lus.rule
+[2025-12-15 20:02:16] [154] Trying mode 170 with rule prepend_ldu_passthrough.rule
+[2025-12-15 20:02:21] [155] Trying mode 170 with rule append_d.rule
+[2025-12-15 20:02:25] [156] Trying mode 170 with rule prepend_us.rule
+[2025-12-15 20:02:30] [157] Trying mode 170 with rule unix-ninja-leetspeak.rule
+[2025-12-15 20:02:56] [158] Trying mode 170 with rule T0XlC_3_rule.rule
+[2025-12-15 20:03:01] [159] Trying mode 170 with rule append_hl.rule
+[2025-12-15 20:03:06] [160] Trying mode 170 with rule dive.rule
+[2025-12-15 20:08:51] [161] Trying mode 170 with rule prepend_du_passthrough.rule
+[2025-12-15 20:08:55] [162] Trying mode 170 with rule T0XlC.rule
+[2025-12-15 20:09:19] [163] Trying mode 170 with rule append_us_passthrough.rule
+[2025-12-15 20:09:24] [164] Trying mode 170 with rule toggles5.rule
+[2025-12-15 20:09:50] [165] Trying mode 170 with rule prepend_du_passthrough.rule
+[2025-12-15 20:09:55] [166] Trying mode 170 with rule best64.rule
+[2025-12-15 20:10:02] [167] Trying mode 170 with rule append_s.rule
+[2025-12-15 20:10:06] [168] Trying mode 170 with rule prepend_ds.rule
+[2025-12-15 20:10:11] [169] Trying mode 170 with rule append_hu.rule
+[2025-12-15 20:10:15] [170] Trying mode 170 with rule append_ld_passthrough.rule
+[2025-12-15 20:10:20] [171] Trying mode 170 with rule generated2.rule
+[2025-12-15 20:13:33] [172] Trying mode 170 with rule append_ls_passthrough.rule
+[2025-12-15 20:13:37] [173] Trying mode 170 with rule prepend_ldus_passthrough.rule
+[2025-12-15 20:13:43] [174] Trying mode 170 with rule T0XlC.rule
+[2025-12-15 20:14:06] [175] Trying mode 170 with rule T0XlCv1.rule
+[2025-12-15 20:14:54] [176] Trying mode 170 with rule append_ds.rule
+[2025-12-15 20:14:59] [177] Trying mode 170 with rule unix-ninja-leetspeak.rule
+[2025-12-15 20:15:25] [178] Trying mode 170 with rule T0XlC_3_rule.rule
+[2025-12-15 20:15:30] [179] Trying mode 170 with rule leetspeak.rule
+[2025-12-15 20:15:35] [180] Trying mode 170 with rule prepend_hl_passthrough.rule
+[2025-12-15 20:15:39] [181] Trying mode 170 with rule append_ldu_passthrough.rule
+[2025-12-15 20:15:44] [182] Trying mode 170 with rule append_ldu_passthrough.rule
+[2025-12-15 20:15:48] [183] Trying mode 170 with rule append_l.rule
+[2025-12-15 20:15:53] [184] Trying mode 170 with rule prepend_d_passthrough.rule
+[2025-12-15 20:15:58] [185] Trying mode 170 with rule prepend_hl.rule
+[2025-12-15 20:16:02] [186] Trying mode 170 with rule prepend_d.rule
+[2025-12-15 20:16:07] [187] Trying mode 170 with rule prepend_hu.rule
+[2025-12-15 20:16:11] [188] Trying mode 170 with rule append_hl.rule
+[2025-12-15 20:16:16] [189] Trying mode 170 with rule Incisive-leetspeak.rule
+[2025-12-15 20:17:49] [190] Trying mode 170 with rule prepend_u_passthrough.rule
+[2025-12-15 20:17:53] [191] Trying mode 170 with rule prepend_l.rule
+[2025-12-15 20:17:58] [192] Trying mode 170 with rule prepend_us_passthrough.rule
+[2025-12-15 20:18:03] [193] Trying mode 170 with rule prepend_ds_passthrough.rule
+[2025-12-15 20:18:07] [194] Trying mode 170 with rule T0XlC-insert_space_and_special_0_F.rule
+[2025-12-15 20:18:17] [195] Trying mode 170 with rule specific.rule
+[2025-12-15 20:18:25] [196] Trying mode 170 with rule prepend_ls.rule
+[2025-12-15 20:18:29] [197] Trying mode 170 with rule T0XlC-insert_00-99_1950-2050_toprules_0_F.rule
+[2025-12-15 20:18:51] [198] Trying mode 170 with rule d3ad0ne.rule
+[2025-12-15 20:20:52] [199] Trying mode 170 with rule prepend_us.rule
+[2025-12-15 20:20:56] [200] Trying mode 170 with rule d3ad0ne.rule
+[2025-12-15 20:22:57] [201] Trying mode 170 with rule append_du.rule
+[2025-12-15 20:23:01] [202] Trying mode 170 with rule top10_2025.rule
+[2025-12-15 20:23:06] [203] Trying mode 170 with rule prepend_dus_passthrough.rule
+[2025-12-15 20:23:12] [204] Trying mode 170 with rule prepend_ldu.rule
+[2025-12-15 20:23:16] [205] Trying mode 170 with rule combinator.rule
+[2025-12-15 20:23:22] [206] Trying mode 170 with rule append_lds.rule
+[2025-12-15 20:23:27] [207] Trying mode 170 with rule append_lu.rule
+[2025-12-15 20:23:32] [208] Trying mode 170 with rule prepend_s.rule
+[2025-12-15 20:23:36] 
+Script interrupted by user
+[2025-12-15 20:41:27] ============================================================
+[2025-12-15 20:41:27] Starting Hashcat Brute-Force Attack
+[2025-12-15 20:41:27] ============================================================
+[2025-12-15 20:41:27] Hash file: /home/shweb/hash.txt
+[2025-12-15 20:41:27] Wordlist: /home/shweb/base_dtu.txt
+[2025-12-15 20:41:27] Output file: cracked.txt
+[2025-12-15 20:41:27] 
+[2025-12-15 20:41:27] Retrieving available hash modes...
+[2025-12-15 20:41:27] Found 609 hash modes
+[2025-12-15 20:41:27] Searching for rule files...
+[2025-12-15 20:41:27] Found 190 rule files
+[2025-12-15 20:41:27] 
+[2025-12-15 20:41:27] Total combinations to try: 116319
+[2025-12-15 20:41:27] Starting attacks...
+[2025-12-15 20:41:27] 
+[2025-12-15 20:41:27] [1] Trying mode 170 (no rules)
+[2025-12-15 20:41:35] [2] Trying mode 6000 (no rules)
+[2025-12-15 20:41:35] 
+Script interrupted by user
+[2025-12-15 20:42:10] ============================================================
+[2025-12-15 20:42:10] Starting Hashcat Brute-Force Attack
+[2025-12-15 20:42:10] ============================================================
+[2025-12-15 20:42:10] Hash file: /home/shweb/hash.txt
+[2025-12-15 20:42:10] Wordlist: /home/shweb/base_dtu.txt
+[2025-12-15 20:42:10] Output file: cracked.txt
+[2025-12-15 20:42:10] 
+[2025-12-15 20:42:10] Retrieving available hash modes...
+[2025-12-15 20:42:10] Found 609 hash modes
+[2025-12-15 20:42:10] Searching for rule files...
+[2025-12-15 20:42:10] Found 96 rule files
+[2025-12-15 20:42:10] 
+[2025-12-15 20:42:10] Total combinations to try: 59073
+[2025-12-15 20:42:10] Starting attacks...
+[2025-12-15 20:42:10] 
+[2025-12-15 20:42:10] [1] Trying mode 170 (no rules)
+[2025-12-15 20:42:15] 
+Script interrupted by user

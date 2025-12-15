@@ -23,8 +23,7 @@ MODES_TO_TEST = [32800, 0, 1000, 900, 70, 2600, 3500, 4400, 20900, 4300, 9900, 8
 
 # Hashcat rules directories (common locations)
 RULES_PATHS = [
-    "/usr/share/hashcat/rules",
-    "/usr/local/share/hashcat/rules",
+    "/usr/local/share/doc/hashcat/rules",
     os.path.expanduser("~/.hashcat/rules"),
     "/opt/hashcat/rules"
 ]
