@@ -19,7 +19,7 @@ WORDLIST = "/home/shweb/wordlists/rockyou.txt"
 OUTPUT_FILE = "cracked.txt"
 LOG_FILE = "hashcrack.log"
 # Modes to test
-MODES_TO_TEST = [32800, 0, 1000, 900, 70, 2600, 3500, 4400, 20900, 4300, 9900, 8600]
+MODES_TO_TEST = [ 0, 1000, 900, 70, 32800, 2600, 3500, 4400, 20900, 4300, 9900, 8600]
 
 # Hashcat rules directories (common locations)
 RULES_PATHS = [
@@ -90,7 +90,6 @@ def run_hashcat(mode, rule_file=None):
         "-m", str(mode),
         "-a", "0",  # Straight attack mode
         "-w", "4",  # Workload profile 4 (nightmare - maximum power)
-        "-O",  # Enable optimized kernels
         "--force",
         "--restore-disable",
         "--potfile-disable",

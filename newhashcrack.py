@@ -1,23 +1,32 @@
+
+
 #!/usr/bin/env python3
 """
-Hashcat Brute-Force Script - Auto-detect paths
+Hashcat Brute-Force Script
 Attempts to crack hashes using all available hash modes and rules
 """
 
 import subprocess
 import os
 import sys
+import re
 from pathlib import Path
 from datetime import datetime
 
 # Configuration
-HASH_FILE = "/home/shweb/hash.txt"
-WORDLIST = "/home/shweb/wordlists/rockyou.txt"
+HASH_FILE = "/home/shweb/Documents/Skole/E-Hack/Week-7/hash2.txt"
+WORDLIST = "/home/shweb/wordlists/common-passwords.txt"
 OUTPUT_FILE = "cracked.txt"
 LOG_FILE = "hashcrack.log"
+# Modes to testd
+MODES_TO_TEST = [0]
 
-# Modes to test (SHA-1 variants as detected by hashcat)
-MODES_TO_TEST = [170, 6000, 300, 4500, 4700, 18500,100]
+# Hashcat rules directories (common locations)
+RULES_PATHS = [
+    "/usr/local/share/doc/hashcat/rules",
+    os.path.expanduser("~/.hashcat/rules"),
+    "/opt/hashcat/rules"
+]
 
 
 def log_message(message):
@@ -29,63 +38,64 @@ def log_message(message):
         f.write(log_line + "\n")
 
 
-def find_hashcat():
-    """Find hashcat binary path"""
+def get_hash_modes():
+    """Extract all valid hash modes from hashcat"""
+    log_message("Retrieving available hash modes...")
     try:
         result = subprocess.run(
-            ["which", "hashcat"],
+            ["hashcat", "-hh"],
             capture_output=True,
-            text=True
+            text=True,
+            timeout=10
         )
-        hashcat_path = result.stdout.strip()
-        if hashcat_path and os.path.exists(hashcat_path):
-            log_message(f"Found hashcat at: {hashcat_path}")
-            return hashcat_path
-        else:
-            log_message("ERROR: hashcat not found in PATH")
-            return None
+
+        # Extract mode numbers from help output
+        modes = []
+        for line in result.stdout.split("\n"):
+            # Match lines like "    900 | MD4                              | Raw Hash"
+            match = re.match(r'\s+(\d+)\s+\|', line)
+            if match:
+                modes.append(int(match.group(1)))
+
+        log_message(f"Found {len(modes)} hash modes")
+        return sorted(modes)
     except Exception as e:
-        log_message(f"Error finding hashcat: {e}")
-        return None
+        log_message(f"Error getting hash modes: {e}")
+        return []
 
 
-def find_rule_files():
-    """Find all rule files by searching common locations"""
+def get_rule_files():
+    """Find all rule files in hashcat directories"""
     log_message("Searching for rule files...")
     rule_files = []
 
-    # Search in common locations
-    search_paths = [
-        "/usr/share/hashcat",
-        "/usr/local/share/hashcat",
-        "/usr/local/share/doc/hashcat",
-        "/usr/share/doc/hashcat",
-        os.path.expanduser("~/.hashcat"),
-        "/opt/hashcat"
-    ]
-
-    for search_path in search_paths:
-        if os.path.isdir(search_path):
-            log_message(f"  Searching in {search_path}")
-            for rule_file in Path(search_path).rglob("*.rule"):
-                rule_files.append(str(rule_file))
+    for rules_path in RULES_PATHS:
+        if os.path.isdir(rules_path):
+            for file in Path(rules_path).glob("*.rule"):
+                rule_files.append(str(file))
+            # Also check subdirectories
+            for file in Path(rules_path).glob("**/*.rule"):
+                rule_files.append(str(file))
 
     # Remove duplicates
     rule_files = list(set(rule_files))
     log_message(f"Found {len(rule_files)} rule files")
-    return sorted(rule_files)
+    return rule_files
 
 
-def run_hashcat(hashcat_path, mode, rule_file=None):
+def run_hashcat(mode, rule_file=None):
     """Run hashcat with specified mode and optional rule file"""
     cmd = [
-        hashcat_path,
+        "hashcat",
         "-m", str(mode),
-        "-a", "0",
-        "-w", "4",
-        "-O",
+        "-a", "0",  # Straight attack mode
+        "-w", "4",  # Workload profile 4 (nightmare - maximum power)
         "--force",
+        "--restore-disable",
+        "--potfile-disable",
         "--outfile", OUTPUT_FILE,
+        "--outfile-format", "2",  # plain:hash format
+        "--quiet",
         HASH_FILE,
         WORDLIST
     ]
@@ -98,21 +108,23 @@ def run_hashcat(hashcat_path, mode, rule_file=None):
             cmd,
             capture_output=True,
             text=True,
-            timeout=300
+            timeout=30000  # 5 minute timeout per attempt
         )
         return result.returncode == 0
     except subprocess.TimeoutExpired:
         log_message(f"  Timeout for mode {mode}" + (f" with rule {os.path.basename(rule_file)}" if rule_file else ""))
         return False
-    except Exception:
+    except Exception as e:
+        # Silently skip invalid combinations
         return False
 
 
 def check_if_cracked():
-    """Check if hash has been cracked by reading output file"""
-    if os.path.exists(OUTPUT_FILE):
+    """Check if hash has been cracked by reading potfile"""
+    potfile = "hashcat.potfile"
+    if os.path.exists(potfile):
         try:
-            with open(OUTPUT_FILE, "r") as f:
+            with open(potfile, "r") as f:
                 content = f.read()
                 if content.strip():
                     return True
@@ -140,17 +152,16 @@ def main():
         log_message(f"ERROR: Wordlist not found: {WORDLIST}")
         sys.exit(1)
 
-    # Find hashcat
-    hashcat_path = find_hashcat()
-    if not hashcat_path:
-        log_message("ERROR: Cannot proceed without hashcat")
+    # Get hash modes and rules
+    hash_modes = get_hash_modes()
+    rule_files = get_rule_files()
+
+    if not hash_modes:
+        log_message("ERROR: No hash modes found. Is hashcat installed?")
         sys.exit(1)
 
-    # Find rule files
-    rule_files = find_rule_files()
-
     log_message("")
-    log_message(f"Total combinations to try: {len(MODES_TO_TEST) * (len(rule_files) + 1)}")
+    log_message(f"Total combinations to try: {len(hash_modes) * (len(rule_files) + 1)}")
     log_message("Starting attacks...")
     log_message("")
 
@@ -159,10 +170,14 @@ def main():
 
     # Try specific modes without rules first
     for mode in MODES_TO_TEST:
+        if mode not in hash_modes:
+            log_message(f"Skipping mode {mode} (not available)")
+            continue
+
         attempts += 1
         log_message(f"[{attempts}] Trying mode {mode} (no rules)")
 
-        if run_hashcat(hashcat_path, mode):
+        if run_hashcat(mode):
             successful += 1
             log_message(f"  SUCCESS! Hash cracked with mode {mode}")
 
@@ -174,12 +189,14 @@ def main():
 
     # Try specific modes with each rule file
     for mode in MODES_TO_TEST:
+        if mode not in hash_modes:
+            continue
         for rule_file in rule_files:
             attempts += 1
             rule_name = os.path.basename(rule_file)
             log_message(f"[{attempts}] Trying mode {mode} with rule {rule_name}")
 
-            if run_hashcat(hashcat_path, mode, rule_file):
+            if run_hashcat(mode, rule_file):
                 successful += 1
                 log_message(f"  SUCCESS! Hash cracked with mode {mode} and rule {rule_name}")
 

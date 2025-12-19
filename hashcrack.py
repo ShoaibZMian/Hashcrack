@@ -12,7 +12,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Configuration
-HASH_FILE = "/home/shweb/hash.txt"
+HASH_FILE = "/home/shweb/Downloads/hash7.txt"
 WORDLIST = "/home/shweb/base_dtu.txt"
 OUTPUT_FILE = "cracked.txt"
 LOG_FILE = "hashcrack.log"
@@ -94,7 +94,6 @@ def run_hashcat(mode, rule_file=None):
         "--outfile-format", "2",  # plain:hash format
         "-o", OUTPUT_FILE,
         "--quiet",
-        "-O",  # Enable optimized kernels
         "-w", "4"  # Workload profile 4 (nightmare - maximum power)
     ]
 
